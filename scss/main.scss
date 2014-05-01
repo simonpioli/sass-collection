@@ -1,0 +1,20 @@
+/* ==================================================================================================== */
+/* BLUE LEAF BASE SASS INCLUDES */
+
+/* ==================================================================================================== */
+/* BASE */
+
+//General Includes
+@import 'scss/vendor/bourbon/bourbon';
+
+@import 'scss/includes/constants';
+@import 'scss/includes/mixins';
+
+//Normalize
+@import 'scss/includes/normalize';
+
+/* ==================================================================================================== */
+/* INCLUDES */
+
+//Flags
+@import 'scss/includes/sprites/flags';
