@@ -1,17 +1,18 @@
 // _flags.scss
 
 @import "compass/utilities/sprites";
-@import "flags-16/*.png";
-@import "flags-24/*.png";
-@import "flags-32/*.png";
-@import "flags-48/*.png";
-@import "flags-64/*.png";
 
 $flags-16-spacing: 10px;
 $flags-24-spacing: 10px;
 $flags-32-spacing: 10px;
 $flags-48-spacing: 10px;
 $flags-64-spacing: 10px;
+
+@import "flags-16/*.png";
+@import "flags-24/*.png";
+@import "flags-32/*.png";
+@import "flags-48/*.png";
+@import "flags-64/*.png";
 
 @include all-flags-16-sprites;
 @include all-flags-24-sprites;
