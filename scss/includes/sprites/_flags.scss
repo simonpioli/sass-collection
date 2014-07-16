@@ -13,11 +13,23 @@ $flags-64-spacing: 20px;
 @import "flags-48/*.png";
 @import "flags-64/*.png";
 
+@import "flags-shiny-16/*.png";
+@import "flags-shiny-24/*.png";
+@import "flags-shiny-32/*.png";
+@import "flags-shiny-48/*.png";
+@import "flags-shiny-64/*.png";
+
 @include all-flags-16-sprites;
 @include all-flags-24-sprites;
 @include all-flags-32-sprites;
 @include all-flags-48-sprites;
 @include all-flags-64-sprites;
+
+@include all-flags-shiny-16-sprites;
+@include all-flags-shiny-24-sprites;
+@include all-flags-shiny-32-sprites;
+@include all-flags-shiny-48-sprites;
+@include all-flags-shiny-64-sprites;
 
 [class*="flags-24-"] {
 	@include size(24px);
@@ -25,6 +37,10 @@ $flags-64-spacing: 20px;
 
 [class*="flags-48-"] {
 	@include size(48px);
+}
+
+[class*="flags-shiny-24-"] {
+	@include size(24px);
 }
 
 .flags--grad {
